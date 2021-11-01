@@ -712,7 +712,7 @@ p {
     2.HEADER css 
 ===========================*/
 .appie-sticky.sticky {
-  position: fixed;
+ 
   left: 0;
   top: 0;
   right: 0;
@@ -1265,7 +1265,7 @@ p {
     z-index: -1;
     animation: linear 25s animationFramesFive infinite; }
   .appie-hero-area.appie-hero-4-area {
-    background: #f9f9f9;
+    background: #F2F0E4;
     background-image: url(../images/hero-shape-1.png);
     background-repeat: no-repeat;
     background-size: auto;
@@ -1414,7 +1414,8 @@ p {
   .appie-hero-content.appie-hero-content-4 .appie-title {
     font-size: 70px;
     font-weight: 700;
-    line-height: 80px; }
+    line-height: 80px; 
+  }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
       .appie-hero-content.appie-hero-content-4 .appie-title {
         font-size: 60px;
@@ -1601,7 +1602,9 @@ p {
     top: 210px;
     right: 0px;
     animation: linear 20s animationFramesThree infinite;
-    z-index: -1; }
+    z-index: -1; 
+    width: 400px;
+  }
 
 .appie-hero-content-2 > span {
   font-size: 16px;
