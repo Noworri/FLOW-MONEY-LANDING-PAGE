@@ -4313,8 +4313,11 @@ blockquote cite {
 /*===========================
     10.APPIE FOOTER css 
 ===========================*/
+
+
+/* page footer  */
 .appie-footer-area {
-  background: #eef1f6;
+  background: #F2F0E4;
   padding-top: 50px;
   padding-bottom: 60px; }
   .appie-footer-area.appie-footer-3-area {
