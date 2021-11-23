@@ -712,16 +712,18 @@ p {
     2.HEADER css 
 ===========================*/
 .appie-sticky.sticky {
- 
+  position: fixed;
   left: 0;
   top: 0;
   right: 0;
   z-index: 1010;
-  background: #fff;
+  background-color: hsla(0,0%,100%,.7);
   box-shadow: 0 15px 30px 0 #0000000f;
   padding-top: 20px;
   padding-bottom: 20px;
-  animation: sticky  1.2s; }
+  animation: sticky  1.2s; 
+  height: 80px;
+}
 
 .appie-header-area {
   padding-top: 30px;
@@ -4313,8 +4315,11 @@ blockquote cite {
 /*===========================
     10.APPIE FOOTER css 
 ===========================*/
+
+
+/* page footer  */
 .appie-footer-area {
-  background: #eef1f6;
+  background: #F2F0E4;
   padding-top: 50px;
   padding-bottom: 60px; }
   .appie-footer-area.appie-footer-3-area {
