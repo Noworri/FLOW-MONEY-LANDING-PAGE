@@ -1,0 +1,53 @@
+.appie-logo-box {
+    img {
+        position: relative;
+        width: 5rem;
+        bottom: 1rem;
+    }
+}
+
+#appie-btn-box {
+    .appie-btn-box {
+        position: relative;
+        bottom: 1.5rem;
+    }
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 3px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 14rem;
+  
+}
+.dropdown-content{
+    a{
+        font-size: 16px;
+        font-weight: bold;
+        color: #8A979F;
+    }
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
