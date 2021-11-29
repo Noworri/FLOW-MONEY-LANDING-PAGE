@@ -215,7 +215,7 @@ p {
   .back-to-top.back-to-top-6 a {
     background: #9b2cfa; }
   .back-to-top.back-to-top-5 a {
-    background: #801f82; }
+    background:#D4E12E }
   .back-to-top.back-to-top-8 a {
     background: #db0f30; }
 
@@ -370,7 +370,7 @@ p {
       width: 40px;
       text-align: center;
       line-height: 38px;
-      color: #2b70fa;
+      color:gray;
       border: 1px solid #eaeaea;
       border-radius: 50%;
       margin: 0 5px;
@@ -380,8 +380,8 @@ p {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       .offcanvas-social ul li a:hover {
-        background: #2b70fa;
-        border-color: #2b70fa;
+        background: rgb(128, 31, 130);
+        border-color:rgb(128, 31, 130);
         color: #fff; }
 
 .toggle-btn {
@@ -812,8 +812,8 @@ p {
 .header-nav-box.header-nav-4-box .appie-header-main-menu ul > li > a:hover {
   color: #801f82; }
 .header-nav-box.header-nav-4-box .appie-btn-box .main-btn {
-  background: #801f82;
-  border-color: #801f82; }
+  background: #D4E12E;
+  border-color: #D4E12E; }
   .header-nav-box.header-nav-4-box .appie-btn-box .main-btn:hover {
     background: transparent;
     color: #801f82; }
